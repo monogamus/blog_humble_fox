@@ -57,3 +57,12 @@
     color: #ff0000;
     font-size: 50px;
   }
+
+
+  .question h3 {
+    float: left;
+    margin: 0 40px;
+    color: #808080;
+    text-transform: uppercase;
+    font: bold 80px/100px Helvetica, sans-serif;
+  }
