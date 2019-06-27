@@ -1,31 +1,60 @@
 <!DOCTYPE html>
-<html>
-		<link rel="stylesheet" href="quiz.css">
+<html lang="en">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>True or False</title>
 </head>
+    
 <body>
-		<div class="intro">
-				<h1>Click and hold</h1>
-				<p>a question to see the answer</p>
-		</div>
-			   
-		<div class="question">
-				<h2>Bats are blind</h2>
-				<p class="no">True</p>
-				<p class="yes">False</p>
-		</div>
-			   
-		<div class="question">
-				<h2>Crocodiles Cry</h2>
-				<p class="yes">True</p>
-				<p class="no">False</p>
-		</div>
-		
-		<div class="question">
-			<h2>Crocodiles Cry</h2>
-			<p class="yes">True</p>
-			<p class="no">False</p>
-		</div>
+    <h1><b>True or False Questions</b></h1>
+    <p>
+    <form name="quiz"> 
+    <p>
+            
+    <b>Question 1. 
+        <br>Question --------------------.<br></b>
+        <input type="radio" name="q1" value="true">True<br>
+        <input type="radio" name="q1" value="false">False<br>
+    <p><b>
+    <hr>
+
+    Question 2.
+        <br>Question --------------------.<br></b>
+        <input type="radio" name="q2" value="true">True<br>
+        <input type="radio" name="q2" value="false">False<br>
+    <p><b>
+    <hr>
+            
+    Question 3.
+        <br>Question --------------------.<br></b>
+        <input type="radio" name="q3" value="true">True<br>
+        <input type="radio" name="q3" value="false">False<br>
+    <p><b>
+    <hr>
+            
+    Question 4.
+        <br>Question --------------------.<br></b>
+        <input type="radio" name="q4" value="true">True<br>
+        <input type="radio" name="q4" value="false">False<br>
+    <p><b>
+    <hr>
+            
+    Question 5.
+        <br>Question --------------------.<br></b>
+        <input type="radio" name="q5" value="true">True<br>
+        <input type="radio" name="q5" value="false">False<br>
+    <p><b>
+    
+        <input type="button"value="Submit"onClick="getScore(this.form);">
+        <input type="reset" value="Clear"><p>
+            
+        Number of score out of 5 = <input type= text size 15 name= "mark">
+    </form>
+    <p>
+        
+        <form method="post" name="Form" onsubmit="" action="">
+    </form>
 </body>
 </html>
